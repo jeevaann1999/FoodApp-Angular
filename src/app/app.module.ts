@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { NorthIndianComponent } from './north-indian/north-indian.component';
 import { SouthIndianComponent } from './south-indian/south-indian.component';
+import { DrinksComponent } from './drinks/drinks.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SouthIndianComponent } from './south-indian/south-indian.component';
     LoginComponent,
     SignUpComponent,
     NorthIndianComponent,
-    SouthIndianComponent
+    SouthIndianComponent,
+    DrinksComponent
   ],
   imports: [
     BrowserModule,
