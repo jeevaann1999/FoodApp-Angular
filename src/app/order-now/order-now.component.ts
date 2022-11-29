@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./order-now.component.css']
 })
 export class OrderNowComponent {
+  name=""
+  location=""
+  pincode=""
+  emailid=""
+  phoneNumber=""
 
+  readValues=()=>{
+    let data:any={
+      "name":this.name,
+      "location":this.location,
+      "pincode":this.pincode,
+      "emailid":this.emailid,
+      "phoneNumber":this.emailid
+    }
+    console.log(data)
+  }
 }
